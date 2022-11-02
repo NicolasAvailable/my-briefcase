@@ -1,0 +1,169 @@
+@font-face {
+    font-family: condensed;
+    src: url(./fonts/RobotoCondensed-Regular.ttf);
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1371' height='680' preserveAspectRatio='none' viewBox='0 0 1371 680'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1239%26quot%3b)' fill='none'%3e%3crect width='1371' height='680' x='0' y='0' fill='rgba(230%2c 198%2c 249%2c 0.65)'%3e%3c/rect%3e%3cpath d='M 0%2c312 C 91.4%2c361 274.2%2c563.6 457%2c557 C 639.8%2c550.4 731.2%2c306 914%2c279 C 1096.8%2c252 1279.6%2c393.4 1371%2c422L1371 680L0 680z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1239'%3e%3crect width='1371' height='680' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); 
+}
+
+/*  ESTILOS DE LA CABECERA  */
+
+#top{
+    box-shadow: 0px 1px 13px rgba(155, 155, 155, 0.986);
+}
+
+.navbar{
+    background-color: #9400D3; 
+}
+
+.navbar-toggler{
+    text-align: center;
+}
+
+.nav-item{
+    margin-right: 16px;
+    margin-left: 14px;
+}
+
+.nav-link{
+    border-radius: 4px;
+}
+
+.nav-link:hover{
+    background-color: #f8ebff52;
+}
+
+.nav-link:focus{
+    background-color: #efdafb52;
+    transition: all, 600ms;
+}
+
+/* ESTILOS DE EL CONTENIDO CENTRAL */
+
+.bio{
+    height: 800px;
+}
+
+.desarrollo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+    text-align: center;
+    margin-top: -10px;
+ 
+}
+
+.alineacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 22px;
+}
+
+.texto{
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: -1px;
+    color: black;
+    font-size: 38px;
+    font-family: condensed, Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#small{
+    color: black;
+    font-size: 34px;
+    font-family: condensed, Georgia, 'Times New Roman', Times, serif;
+}
+
+#welcome{
+    margin-top: -14px;
+    margin-bottom: 9px;
+    color: rgb(148, 148, 148);
+    font-size: 19px;
+}
+
+.designer{
+    background-color: #9400D3;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    width: 251px;
+}
+
+.photopersonal{
+    height: 50%;
+    width: 100%;
+    border-radius: 125px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 0 rgb(0 0 0 / 20%), -1px 2px 9px 1px rgb(0 0 0 / 19%);;
+}
+
+#curriculum{
+    align-self: center;
+}
+
+#button-curriculum{
+    height: 29px;
+    width: 85px;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #9400D3;
+}
+
+/* ESTILOS DE EL FOOTER */
+
+#footer{
+    display: flex;
+    flex-flow: column wrap;
+    height: 300px;
+    background-color: black;
+}
+
+#end{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+#end > p{
+    color: #9f9d9d;
+}
+
+#button-github{
+    height: 50px;
+    width: 53px;
+    align-self: center;
+    border-radius: 129px;
+    background-color: #ffffff;
+}
+
+#icon-github{
+    height: 35px;
+    width: 35px;
+}
+
+#owner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#copy{
+    width: 500px;
+    border-top: 1px solid white;
+    padding-top: 26px;
+}
+
